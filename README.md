@@ -92,7 +92,7 @@ use the `equalTo()` assertion for a precise match.
 
 Running this integration test in its current form will give the following error:
 
-![Integration Test Error](spring-testing-integration-test-error.png)
+![Integration Test Error](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-integration-test-error.png)
 
 Which indicates 2 problems:
 
@@ -147,7 +147,7 @@ is read Spring and used to initialize `name`.
 With that change, we can now run our integration test again, and see it fail
 with a "better" error message this time:
 
-![Integration Test Better Error](spring-testing-integration-test-better-error.png)
+![Integration Test Better Error](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-integration-test-better-error.png)
 
 Our integration test is still not sending a parameter in, but since we're now
 defaulting the value of `name` to "Stephanie", the string we're getting back no
@@ -717,7 +717,7 @@ Now that we have a set of Unit, Integration and Acceptance tests, let's run all
 our tests together and compare run times. In my environment, the results are as
 follows:
 
-![Compare Test Runtimes](spring-testing-compare-runtimes.png)
+![Compare Test Runtimes](https://curriculum-content.s3.amazonaws.com/java-spring-2/spring-testing-compare-runtimes.png)
 
 As you can see, the unit tests are the "cheapest" to run (in terms of time that
 it takes for them to run), then the integration tests are second and then the
